@@ -9,7 +9,7 @@ module.exports = {
     return [
       {
         source: '/hola',
-        destination: 'https://gndx.dev',
+        destination: 'https://rodrux.com',
         permanent: true,
       }
     ]
