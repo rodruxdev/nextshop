@@ -1,0 +1,25 @@
+.ProductInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.ProductInfo figure {
+  margin: 0;
+}
+.ProductInfo figure img {
+  width: 35px;
+  height: 35px;
+}
+.ProductInfo div p:nth-child(1) {
+  font-weight: bold;
+  font-size: var(--md);
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.ProductInfo div p:nth-child(2) {
+  font-size: var(--sm);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--very-light-pink);
+}
