@@ -6,7 +6,7 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extendes: [
+  extends: [
     'eslint:recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
@@ -15,5 +15,6 @@ module.exports = {
   ],
   rules: {
     'semi': ['error', 'always'],
+    'prettier/prettier': 0,
   }
-}
+};

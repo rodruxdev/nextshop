@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const initialState = {
   cart: [],
@@ -10,22 +10,22 @@ const useInitialState = () => {
   const addToCart = (payload) => {
     setState({
       ...state,
-      cart: [...state.cart, payload]
+      cart: [...state.cart, payload],
     });
   };
 
   const removeFromCart = (payload) => {
     setState({
       ...state,
-      cart: state.cart.filter((item) => item.id != payload.id)
+      cart: state.cart.filter((item) => item.id != payload.id),
     });
-  }
+  };
 
-  return{
+  return {
     state,
     addToCart,
-    removeFromCart
-  }
-}
+    removeFromCart,
+  };
+};
 
 export default useInitialState;
